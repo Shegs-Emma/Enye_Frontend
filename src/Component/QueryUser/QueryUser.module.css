@@ -58,13 +58,17 @@
 }
 
 .AddrDiv {
-    margin-top: 10px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-small;
+    font-weight: 400;
+    color: #262A41;
 }
 
 .Addr {
     font-family: 'Poppins', sans-serif;
-    font-size: small;
-    font-weight: 400;
+    font-size: x-small;
+    font-weight: 700;
     color: #262A41;
 }
 
@@ -86,7 +90,15 @@
     color: #1a1d2e;
 }
 
-.Joined {
+.CreditCardNumber {
+    background-color: #F7D9F2;
+    width: 210px;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.CreditCardType {
     background-color: #F7D9F2;
     width: 110px;
     margin-top: 10px;
@@ -94,7 +106,7 @@
     padding: 10px;
 }
 
-.Joined span {
+.CreditCardNumber span, .CreditCardType span {
     margin-left: 5px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
@@ -106,7 +118,10 @@
 
 .Phone {
     margin-top: 10px;
-    margin-left: 10px;
+    background-color: #E2E3EC;
+    width: 60%;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .Phone span {
@@ -117,21 +132,15 @@
 }
 
 .Mobile {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 5px;
 }
 
 .Mobile span {
     font-family: 'Poppins', sans-serif;
-    font-size: x-small;
+    font-size: small;
     color: #262A41;
     margin-left: 5px;
-}
-
-.Empty {
-    font-family: 'Poppins', sans-serif;
-    font-size: x-large;
-    color: #262A41;
 }
 
 
@@ -162,7 +171,6 @@
     }
 
 }
-
 
 /* Moto G4 */
 @media (width: 360px) and (height: 640px) {
@@ -249,7 +257,7 @@
         width: 40%;
     }
 
-    .QueryUser {
+    .User {
         margin-bottom: 90px;
     }
 }
@@ -279,10 +287,11 @@
         width: 100%;
     }
 
-    .QueryUser {
+    .User {
         margin-bottom: 90px;
     }
 }
+
 
 /* Galaxy FOld */
 @media (min-width: 280px) and (max-width: 653px) {
@@ -308,7 +317,7 @@
         width: 90%;
     }
 
-    .QueryUser {
+    .User {
         margin-bottom: 90px;
     }
 

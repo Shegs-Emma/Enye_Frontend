@@ -1,0 +1,270 @@
+.Dashboard {
+    width: 30%;
+    position: relative;
+    top: 100px;
+}
+
+.Hello {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color:#FFFFFF;
+}
+
+.Eme {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color:#FFFFFF;
+}
+
+.Welcome {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color:#FFFFFF;
+}
+
+.Show {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color:#FFFFFF;
+}
+
+.Input {
+    position: relative;
+    left: -20px;
+    width: 70%;
+    height: 50px;
+    background-color: #3C3F54;
+    color: whitesmoke;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    padding-left: 55px;
+    z-index: 1;
+}
+
+.Input::placeholder {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.Search {
+    position: relative;
+    left: 15px;
+    z-index: 2;
+}
+
+.Users {
+    width: 70px;
+    height: 70px;
+    background-color: #F935A9;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+}
+
+.Male {
+    width: 60px;
+    height: 60px;
+    background-color: #30BBB5;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.Female {
+    width: 60px;
+    height: 60px;
+    background-color: #7946C1;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.People {
+    display: flex;
+    width: 62%;
+    justify-content: space-between;
+}
+
+
+/*iphone 6/7/8 */
+@media (max-width: 375px) {
+    .Dashboard {
+        width: 100%;
+        position: relative;
+        top: 100px;
+        left: 10%;
+        margin-bottom: 50%;
+    }
+}
+
+/* Pixel 2 */
+@media (min-width: 376px) and (max-width: 411px) {
+    .Dashboard {
+        width: 90%;
+        position: relative;
+        top: 100px;
+        left: 5%;
+        margin-bottom: 50%;
+    }
+}
+
+/* iPhone 6/7/8 Plus */
+@media (min-width: 412px) and (max-width: 414px) {
+    .Dashboard {
+        width: 100%;
+        position: relative;
+        top: 100px;
+        left: 10%;
+        margin-bottom: 50%;
+    }
+}
+
+/* iPad */
+@media (min-width: 415px) and (max-width: 768px) {
+    .Dashboard {
+        width: 100%;
+        position: relative;
+        top: 100px;
+        left: 10%;
+        margin-bottom: 50%;
+    }
+
+    .Input {
+        position: relative;
+        left: -20px;
+        width: 50%;
+        height: 50px;
+        background-color: #3C3F54;
+        color: whitesmoke;
+        border-radius: 15px;
+        outline: none;
+        border: none;
+        padding-left: 55px;
+        z-index: 1;
+    }
+
+    .Welcome {
+        font-family: 'Poppins', sans-serif;
+        font-size: medium;
+        font-weight: 300;
+        color:#FFFFFF;
+    }
+
+    .People {
+        display: flex;
+        width: 32%;
+        justify-content: space-between;
+    }
+}
+
+/* iPad Pro */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .Dashboard {
+        width: 80%;
+        position: relative;
+        top: 100px;
+        left: 15%;
+        margin-bottom: 30%;
+    }
+
+    .Input {
+        position: relative;
+        left: -20px;
+        width: 50%;
+        height: 50px;
+        background-color: #3C3F54;
+        color: whitesmoke;
+        border-radius: 15px;
+        outline: none;
+        border: none;
+        padding-left: 55px;
+        z-index: 1;
+    }
+
+    .Welcome {
+        font-family: 'Poppins', sans-serif;
+        font-size: large;
+        font-weight: 300;
+        color:#FFFFFF;
+    }
+
+    .People {
+        display: flex;
+        width: 32%;
+        justify-content: space-between;
+    }
+
+    .Dashboard h1 {
+        width: 50%;
+    }
+}
+
+
+/* Surface Duo */
+@media (width: 540px) and (height: 720px) {
+    .People {
+        display: flex;
+        width: 42%;
+        justify-content: space-between;
+    }
+
+    .Input {
+        position: relative;
+        left: -20px;
+        width: 75%;
+        height: 50px;
+        background-color: #3C3F54;
+        color: whitesmoke;
+        border-radius: 15px;
+        outline: none;
+        border: none;
+        padding-left: 55px;
+        z-index: 1;
+    }
+}
+
+
+/* Galaxy FOld */
+@media (min-width: 280px) and (max-width: 653px) {
+    .Dashboard {
+        width: 100%;
+        position: relative;
+        top: 100px;
+        margin-bottom: 50%;
+    }
+
+    .Users {
+        width: 60px;
+        height: 70px;
+        background-color: #F935A9;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 70px;
+        cursor: pointer;
+    }
+    
+    .Male {
+        width: 50px;
+        height: 60px;
+        background-color: #30BBB5;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 60px;
+        cursor: pointer;
+    }
+    
+    .Female {
+        width: 50px;
+        height: 60px;
+        background-color: #7946C1;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 60px;
+        cursor: pointer;
+    }
+}

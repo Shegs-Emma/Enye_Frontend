@@ -1,0 +1,60 @@
+.App {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+/*Iphone 6/7/8*/
+@media (max-width: 375px) {
+  .App {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+
+
+/* Pixel 2 */
+@media (min-width: 376px) and (max-width: 411px) {
+  .App {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+
+/* iPhone 6/7/8 Plus */
+@media (min-width: 412px) and (max-width: 414px) {
+  .App {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+
+
+/* iPad */
+@media (min-width: 415px) and (max-width: 768px) {
+  .App {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+
+
+/* iPad Pro */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .App {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}

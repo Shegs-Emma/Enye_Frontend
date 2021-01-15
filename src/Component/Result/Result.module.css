@@ -1,0 +1,387 @@
+.Result {
+    display: flex;
+    flex-direction: row;
+    background-color:#FCFCFF;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(43, 42, 42);
+    margin-bottom: 30px;
+}
+
+.Photo {
+    width: 25%;
+}
+
+.Photo img {
+    width: 50%;
+    position: relative;
+    top: 20%;
+    left: 20%;
+    border-radius: 50%;
+    border: 5px solid #75D6D1;
+}
+
+.IconDiv {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    position: relative;
+    top: -20px;
+    justify-content: space-between;
+}
+
+.IconDiv p {
+    font-size: 11px;
+    color: #262A41;
+}
+
+.Address {
+    color: #262A41;
+    font-style: italic;
+}
+
+.Email{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.Email p {
+    margin-left: 10px;
+}
+
+.Number {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 35%;
+}
+
+.Right {
+    background-color: #30BBB5;
+    text-align: center;
+    width: 10%;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Call {
+    position: relative;
+    left: 7px;
+    top: 11px;
+}
+
+.Env {
+    position: relative;
+    top: 11px;
+}
+
+/* iphone 6/7/8 */
+@media (max-width: 375px) {
+    .Result {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Photo {
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .Details {
+        padding: 7px;
+    }
+
+    .IconDiv {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .Number {
+        display: flex;
+        flex-direction: row;
+        width: 37%;
+    }
+
+    .Call {
+        position: relative;
+        left: -3px;
+    }
+
+    .Email{
+        width: 50%;
+    }
+
+    .Email p{
+        position: relative;
+        left: 5px;
+    }
+
+    .Right {
+        background-color: #30BBB5;
+        text-align: center;
+        width: 20%;
+        position: relative;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+/* Pixel 2 */
+@media (min-width: 376px) and (max-width: 411px) {
+    .Result {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Photo {
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .Details {
+        padding: 7px;
+    }
+
+    .IconDiv {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .Number {
+        display: flex;
+        flex-direction: row;
+        width: 37%;
+    }
+
+    .Call {
+        position: relative;
+        left: -3px;
+    }
+
+    .Email{
+        width: 50%;
+    }
+
+    .Email p{
+        position: relative;
+        left: 5px;
+    }
+
+    .Right {
+        background-color: #30BBB5;
+        text-align: center;
+        width: 20%;
+        position: relative;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+
+/* iPhone 6/7/8 Plus */
+@media (min-width: 412px) and (max-width: 414px) {
+    .Result {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Photo {
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .Details {
+        padding: 7px;
+    }
+
+    .IconDiv {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .Number {
+        display: flex;
+        flex-direction: row;
+        width: 37%;
+    }
+
+    .Call {
+        position: relative;
+        left: -3px;
+    }
+
+    .Email{
+        width: 50%;
+    }
+
+    .Email p{
+        position: relative;
+        left: 5px;
+    }
+
+    .Right {
+        background-color: #30BBB5;
+        text-align: center;
+        width: 20%;
+        position: relative;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+/* iPad */
+@media (min-width: 415px) and (max-width: 768px) {
+    .IconDiv {
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+    }
+}
+
+/* iPad Pro */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .IconDiv {
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+    }
+
+    .Result {
+        display: flex;
+        flex-direction: row;
+        background-color:#FCFCFF;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px rgb(43, 42, 42);
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+
+/* Surface Duo */
+@media (width: 540px) and (height: 720px) {
+    .Result {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Photo {
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .Details {
+        padding: 50px;
+    }
+
+    .IconDiv {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .Number {
+        display: flex;
+        flex-direction: row;
+        width: 37%;
+    }
+
+    .Call {
+        position: relative;
+        left: -3px;
+    }
+
+    .Email{
+        width: 50%;
+    }
+
+    .Email p{
+        position: relative;
+        left: 5px;
+    }
+
+    .Right {
+        background-color: #30BBB5;
+        text-align: center;
+        width: 20%;
+        position: relative;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .Details h4 {
+        font-size: larger;
+    }
+}
+
+/* Galaxy FOld */
+@media (min-width: 280px) and (max-width: 653px) {
+    .Result {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Photo {
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .Details {
+        padding: 10px;
+    }
+
+    .IconDiv {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .Number {
+        display: flex;
+        flex-direction: row;
+        width: 37%;
+    }
+
+    .Call {
+        position: relative;
+        left: -3px;
+    }
+
+    .Email{
+        width: 50%;
+    }
+
+    .Email p{
+        position: relative;
+        left: 5px;
+    }
+
+    .Right {
+        background-color: #30BBB5;
+        text-align: center;
+        width: 20%;
+        position: relative;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

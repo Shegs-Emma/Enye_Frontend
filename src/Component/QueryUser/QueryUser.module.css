@@ -1,0 +1,315 @@
+.Back {
+    margin-right: 10px;
+}
+
+.Results {
+    display: flex;
+    flex-direction: row;
+}
+
+.Results p {
+    position: relative;
+    top: -20px;
+    font-family: 'Poppins', sans-serif;
+    color: #262A41;
+}
+
+.Results p:hover {
+    cursor: pointer;
+}
+
+.Image {
+    width: 100%;
+    border-radius: 50%;
+    border: 6px solid #75D6D1;
+}
+
+.Dp {
+    width: 50%;
+}
+
+.Details {
+    display: flex;
+    flex-direction: row;
+}
+
+.About {
+    width: 400px;
+    padding: 20px;
+}
+
+.About div {
+    position: relative;
+    left: 20px;
+}
+
+.Name {
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    color: #262A41;
+}
+
+.Age {
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: 200;
+    color: #262A41;
+}
+
+.AddrDiv {
+    margin-top: 10px;
+}
+
+.Addr {
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    font-weight: 400;
+    color: #262A41;
+}
+
+.Message{
+    background-color: #E2E3EC;
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.Message span {
+    margin-left: 5px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-small;
+    position: relative;
+    top: -2px;
+    color: #1a1d2e;
+}
+
+.Joined {
+    background-color: #F7D9F2;
+    width: 110px;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.Joined span {
+    margin-left: 5px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-small;
+    position: relative;
+    top: -2px;
+    color: #262A41;
+}
+
+.Phone {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.Phone span {
+    font-family: 'Poppins', sans-serif;
+    font-size: x-small;
+    color: #262A41;
+    margin-left: 5px;
+}
+
+.Mobile {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.Mobile span {
+    font-family: 'Poppins', sans-serif;
+    font-size: x-small;
+    color: #262A41;
+    margin-left: 5px;
+}
+
+.Empty {
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    color: #262A41;
+}
+
+
+
+/*iPhone 6/7/8*/
+@media (max-width: 375px) {
+    .Details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Dp {
+        width: 80%;
+    }
+
+    .About {
+        width: 320px;
+        padding: 5px;
+    }
+
+    .Nomen {
+        width: 70%;
+    }
+
+    .AddrDiv {
+        margin-top: 10px;
+        width: 90%;
+    }
+
+}
+
+
+/* Moto G4 */
+@media (width: 360px) and (height: 640px) {
+    .Details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Dp {
+        width: 80%;
+    }
+
+    .About {
+        width: 320px;
+        padding: 5px;
+    }
+
+    .Nomen {
+        width: 70%;
+    }
+
+    .AddrDiv {
+        margin-top: 10px;
+        width: 90%;
+    }
+}
+
+/* Pixel 2 */
+@media (min-width: 376px) and (max-width: 411px) {
+    .Details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Dp {
+        width: 80%;
+    }
+
+    .About {
+        width: 320px;
+        padding: 5px;
+    }
+
+    .Nomen {
+        width: 70%;
+    }
+
+    .AddrDiv {
+        margin-top: 10px;
+        width: 90%;
+    }
+}
+
+/* iPhone 6/7/8 Plus */
+@media (min-width: 412px) and (max-width: 414px) {
+    .Details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Dp {
+        width: 80%;
+    }
+
+    .About {
+        width: 320px;
+        padding: 5px;
+    }
+
+    .Nomen {
+        width: 70%;
+    }
+
+    .AddrDiv {
+        margin-top: 10px;
+        width: 90%;
+    }
+}
+
+
+/* iPad Pro */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .Dp {
+        width: 40%;
+    }
+
+    .QueryUser {
+        margin-bottom: 90px;
+    }
+}
+
+/* Surface Duo */
+@media (width: 540px) and (height: 720px) {
+    .Details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Dp {
+        width: 80%;
+    }
+
+    .About {
+        width: 320px;
+        padding: 5px;
+    }
+
+    .Nomen {
+        width: 70%;
+    }
+
+    .AddrDiv {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .QueryUser {
+        margin-bottom: 90px;
+    }
+}
+
+/* Galaxy FOld */
+@media (min-width: 280px) and (max-width: 653px) {
+    .Details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Dp {
+        width: 80%;
+    }
+
+    .About {
+        width: 280px;
+    }
+
+    .Nomen {
+        width: 70%;
+    }
+
+    .AddrDiv {
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    .QueryUser {
+        margin-bottom: 90px;
+    }
+
+}
